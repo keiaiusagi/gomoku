@@ -1,0 +1,3 @@
+C:\data\program\CS\Gomoku\x64\Release\Gomoku.vcxproj.CopyComplete
+C:\data\program\CS\Gomoku\x64\Release\Gomoku.exe
+C:\data\program\CS\Gomoku\x64\Release\pdcurses.dll

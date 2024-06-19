@@ -1,0 +1,22 @@
+﻿2024/06/18 16:24:54 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 2 上のプロジェクト "C:\data\program\CS\Gomoku\Gomoku.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\CL.exe /c /I"C:\Users\kirabbit\vcpkg\installed\x64-windows\include" /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Gomoku.cpp
+         Gomoku.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\data\program\CS\Gomoku\x64\Release\Gomoku.exe" /NOLOGO /LIBPATH:"C:\Users\kirabbit\vcpkg\installed\x64-windows\lib" /LIBPATH:"C:\Users\kirabbit\vcpkg\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\Users\kirabbit\vcpkg\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\data\program\CS\Gomoku\x64\Release\Gomoku.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\Gomoku.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\data\program\CS\Gomoku\x64\Release\Gomoku.lib" /MACHINE:X64 x64\Release\Gomoku.obj
+         コード生成しています。
+         3 of 4 functions (75.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         コード生成が終了しました。
+         Gomoku.vcxproj -> C:\data\program\CS\Gomoku\x64\Release\Gomoku.exe
+       AppLocalFromInstalled:
+         pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\Users\kirabbit\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\data\program\CS\Gomoku\x64\Release\Gomoku.exe" "C:\Users\kirabbit\vcpkg\installed\x64-windows\bin" "x64\Release\Gomoku.tlog\Gomoku.write.1u.tlog" "x64\Release\vcpkg.applocal.log"
+     1>プロジェクト "C:\data\program\CS\Gomoku\Gomoku.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:01.86
